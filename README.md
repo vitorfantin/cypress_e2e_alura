@@ -32,3 +32,13 @@ Instalar dependências:
 
 ```bash
 npm install
+```
+
+Executar Cypress com interface gráfica:
+```bash
+npx cypress open
+```
+Executar testes via terminal (modo headless):
+```bash
+npx cypress run
+```
