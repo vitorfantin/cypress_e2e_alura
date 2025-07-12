@@ -6,8 +6,6 @@ describe('Página de Login', () => {
 
 
     it('Realizando login com sucesso', () => {
-        cy.get('[data-test="input-loginEmail"]').type('vitor@teste.com');
-        cy.get('[data-test="input-loginPassword"]').type('Senha2025#')
-        cy.get('[data-test="submit-button"]').click();
+        cy.login('vitor@teste.com', 'Senha2025#');
     });
 });
